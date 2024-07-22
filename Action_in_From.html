@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action in From</title>
+</head>
+<body>
+    <h1>Registration From</h1>
+    <form action="/action.php">
+
+        <input type="text" placeholder="Type something here"> 
+        <br><br>
+        <input type="text" placeholder="username"> 
+        <br><br>
+        <input type="password" placeholder="password"> 
+        <br><br>
+
+        <h4>Select your class</h4>
+
+        <input type="radio" value="Class XI" name="Class">class XI 
+        <br>
+        <input type="radio" value="Class XII" name="Class">class XII
+        <br><br>
+
+        <label for="101">
+            <input type="radio" value="Class XII" name="Class" id="101">class XI
+
+        </label>
+        <br>
+
+        <label for="102">
+            <input type="radio" value="Class XII" name="Class" id="102">class XI
+        </label>
+        <br><br>
+        
+
+        <h4>Select your  favrtue Subject</h4>
+        <br>
+        <label for="Math">
+            <input type="checkbox" value="Math" name="Subject" id="101">Math
+
+            <br>
+        <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="Subject" id="102">chemistry
+
+            <br>
+        <label for="Physics">
+            <input type="checkbox" value="Physics" name="Subject" id="103">Physics
+
+            <br>
+        <label for="computer">
+            <input type="checkbox" value="computer" name="Subject" id="104">computer
+
+        </label>
+        <br><br>
+        <h4>Select your City</h4>
+
+        <select name="city">
+            <option value="Delhi" >Delhi</option>
+            <option value="Lucknow" >Lucknow</option>
+            <option value="Kolkata" >Kolkata</option>
+            <option value="Mumbai" >Mumbai</option>
+            <option value="Pune" >Pune</option>
+        </select>
+        <h3>Give your feedbach Here</h3>
+        <textarea name="feedback" id="101" placeholder="Please give your feedback here" rows="6">feedback
+
+        </textarea>
+        <br>
+
+        <input type="submit" value="submit">
+
+        <h4> iframe tage </h4>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=4jF6vVIvrWuCmpkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+
+        <video width="560" height="315" src="" controls autoplay > My videos</video>
+
+
+    </form>
+    <footer></footer>
+</body>
+</html>
